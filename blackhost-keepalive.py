@@ -42,11 +42,11 @@ except ImportError:
 # ─────────── CONFIG ───────────
 API_BASE = "https://api.blackhost.pl/v1"          # 监控读接口用这个（PAT 鉴权已验证）
 DASH_BASE = "https://dash.blackhost.pl"           # 续期提交用这个（必须浏览器会话）
-SERVID_UNIQUE = "4dbfac39"                        # 服务器 short id（HAR 里 /game/4dbfac39）
-SERVER_UUID = "4dbfac39-b699-41f5-8d79-ca548a859cb1"
-REGISTER_EMAIL = "camera4fun@gmail.com"
+SERVID_UNIQUE = "b4c37dcb"                        # 服务器 short id（HAR 里 /game/4dbfac39）
+SERVER_UUID = "b4c37dcb-10ca-440c-992c-3406d269361e"
+REGISTER_EMAIL = "langb6416@gmail.comm"
 TURNSTILE_SITEKEY = "0x4AAAAAABdrMnrgYP19vAzT"    # HAR bundle 实证，仅供浏览器端过验证时对照
-UA = "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:159.0) Gecko/20100101 Firefox/159.0"
+UA = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/157.0.0.0 Safari/537.36 Edg/157.0.0.0"
 CHECK_EVERY = 10800        # 监控轮询间隔（秒）3 小时；须与 systemd --every 一致
 ALERT_HOURS = 7            # 剩余不足这个小时数就 TG 告警；须大于轮询间隔(3h)，且小于续期加时(约11h20m)-间隔，否则每轮续期后立刻告警
 FAIL_RETRY = 600

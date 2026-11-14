@@ -35,10 +35,10 @@ except ImportError:
 
 API_BASE = "https://api.blackhost.pl/v1"
 DASH_BASE = "https://dash.blackhost.pl"
-SERVID_UNIQUE = "4dbfac39"
-UA = "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:159.0) Gecko/20100101 Firefox/159.0"
+SERVID_UNIQUE = "b4c37dcb"
+UA = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/157.0.0.0 Safari/537.36 Edg/157.0.0.0"
 # bundle 实证的文案（2etc7oet20cr8.js）
-RENEW_BTN_TEXT = "Przedłuż o 8h"
+RENEW_BTN_TEXT = "Renew o 8h"
 SUBMIT_BTN_TEXT = "Przedłuż serwer o 8h"
 MODAL_TITLE = "Przedłuż darmowy serwer"
 
